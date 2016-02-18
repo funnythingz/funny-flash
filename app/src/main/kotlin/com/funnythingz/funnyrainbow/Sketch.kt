@@ -49,7 +49,6 @@ class Sketch : PApplet() {
         if (mousePressed) {
             switchBackgroundColor()
         }
-
         var x: Float = 0f
         while (x < width) {
             var y: Float = 0f
@@ -64,5 +63,10 @@ class Sketch : PApplet() {
         noFill()
         stroke(random(255f), random(255f), random(255f))
         rect(wpx * 9 - 1, hpx * 15 - 1, wpx, hpx)
+    }
+
+    override fun mouseReleased() {
+        super.mouseReleased()
+        selectBackgroundColor(BackgroundColor.BLACK)
     }
 }
