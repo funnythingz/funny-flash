@@ -4,9 +4,6 @@ import processing.core.PApplet
 
 class Sketch : PApplet() {
 
-    private var wpx: Float = 0f
-    private var hpx: Float = 0f
-
     private enum class BackgroundColor {
         BLACK,
         RANDOM
@@ -38,6 +35,9 @@ class Sketch : PApplet() {
     override fun settings() {
         fullScreen()
     }
+
+    private var wpx: Float = 0f
+    private var hpx: Float = 0f
 
     override fun setup() {
         selectBackgroundColor(BackgroundColor.BLACK)
