@@ -1,3 +1,3 @@
-# Funny Rainbow
+# Funny Flash
 
 Kotlin for Processing
