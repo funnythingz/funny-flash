@@ -1,4 +1,4 @@
-package com.funnythingz.funnyrainbow
+package com.funnythingz.funnyflash
 
 import processing.core.PApplet
 

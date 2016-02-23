@@ -1,4 +1,4 @@
-package com.funnythingz.funnyrainbow
+package com.funnythingz.funnyflash
 
 import android.app.Activity
 import android.os.Bundle

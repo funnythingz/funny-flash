@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.funnythingz.funnyrainbow.AppActivity">
+    tools:context="com.funnythingz.funnyflash.AppActivity">
 
     <fragment
-        android:name="com.funnythingz.funnyrainbow.Sketch"
+        android:name="com.funnythingz.funnyflash.Sketch"
         android:id="@+id/sketch"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
